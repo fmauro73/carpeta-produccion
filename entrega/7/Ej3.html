@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Layout XS</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bg-green { background-color: #28a745; }
+        .bg-gray { background-color: #6c757d; }
+        .bg-yellow { background-color: #ffc107; }
+        .bg-blue { background-color: #17a2b8; }
+        .bg-red { background-color: #dc3545; }
+        .footer { background-color: #28a745; }
+        .content {
+            text-align: center; /* Centrar texto horizontalmente */
+            padding: 10px; /* Espaciado interno */
+            margin: 5px; /* Espaciado entre cuadros */
+            border-radius: 5px; /* Bordes redondeados */
+            height: 50px; /* Altura para los cuadros */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <!-- Header -->
+        <div class="row">
+            <div class="col-12 bg-green content">
+                <h5>Header</h5>
+            </div>
+        </div>
+
+        <!-- Números (2 por fila) -->
+        <div class="row">
+            <div class="col-6 bg-gray content">
+                <h5>1</h5>
+            </div>
+            <div class="col-6 bg-gray content">
+                <h5>2</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 bg-gray content">
+                <h5>3</h5>
+            </div>
+            <div class="col-6 bg-gray content">
+                <h5>4</h5>
+            </div>
+        </div>
+
+        <!-- Letras (2 por fila) -->
+        <div class="row">
+            <div class="col-6 bg-yellow content">
+                <h5>a</h5>
+            </div>
+            <div class="col-6 bg-yellow content">
+                <h5>b</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 bg-yellow content">
+                <h5>c</h5>
+            </div>
+            <div class="col-6 bg-yellow content">
+                <h5>d</h5>
+            </div>
+        </div>
+
+        <!-- Banner (mobile) -->
+        <div class="row">
+            <div class="col-12 bg-blue content">
+                <h5>mobile</h5>
+            </div>
+        </div>
+
+        <!-- Emojis (2 por fila) -->
+        <div class="row">
+            <div class="col-6 bg-red content">
+                <h5>:(</h5>
+            </div>
+            <div class="col-6 bg-red content">
+                <h5>:D</h5>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="row">
+            <div class="col-12 footer content">
+                <h5>footer</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+.fondo1{
+    background-color: dodgerblue;
+    padding: 15px;
+    margin: 20px;
+}
+
+.fondo2{
+    background-image: url(../img/isla.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondo3{
+    border-style: solid;
+    border-width: 2px;
+    border-color: firebrick;
+    border-radius: 10px;
+    
+}
+
+.fondo4{
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+}
+
+.fondo5{
+    background-color: yellow;
+    text-align: center;
+}
+
+.fondo6{
+    border-style: double;
+    border-width: 5px;
+    border-color: purple;
+    background-color: gold;
+    margin: 40px;
+}
+
+.fondo7{
+    background-image: url(../img/isla.jpg);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+.fondo8{
+    background-image: url(../img/isla.jpg);
+    background-size: 50%;
+    background-repeat: repeat-y;
+}
+
+.fondo9{
+    background-image: url(../img/isla.jpg);
+    background-size: 200px, auto;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: local;
+    background-color: chocolate;
+}
+
+
+
+.fondo10{
+    border-style: dotted;
+    border-width: 3px;
+    border-color: forestgreen;
+    padding: 25px;
+    width: 50%;
+}

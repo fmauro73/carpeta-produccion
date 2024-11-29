@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 4 </title>
+    <script>
+        var numeros = [];
+        for (var i = 0; i < 5; i++) {
+            numeros[i] = parseint(prompt("Ingresa el número " + (i + 1) + ":"));
+        }
+        var mayor = max(...numeros);
+        var menor = min(...numeros);
+    </script>
+</head>
+<body>
+    <h3>Números ingresados:</h3>
+    <ul>
+        <li>Mayor: <span id="mayor"></span></li>
+        <li>Menor: <span id="menor"></span></li>
+    </ul>
+    <script>
+        document.getElementById("mayor").innerText = mayor;
+        document.getElementById("menor").innerText = menor;
+    </script>
+</body>
+</html>

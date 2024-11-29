@@ -1,0 +1,65 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+  
+  h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: darkblue;
+  }
+  
+  
+  a {
+    color: rgb(126, 164, 177);
+    text-decoration: none;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: underline;
+  }
+  
+  ul, ol {
+    list-style-position: inside;
+  }
+  
+ 
+  header, main, footer {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 30px 20px;
+    border-bottom: 2px solid white;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: smaller;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+  }
+
+  
+
+  
+  @media (max-width: 768px) {
+    header, main, footer {
+      padding: 15px;
+    }
+    h1 {
+      font-size: medium;
+    }
+  }
+  
